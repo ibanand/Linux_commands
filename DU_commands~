@@ -1,0 +1,17 @@
+1.Find Biggest Files and Directories in Linux under home:
+
+ du -a /home | sort -n -r | head -n 5
+
+2.biggest directories in the current working directory:
+ # du -a | sort -n -r | head -n 5
+
+   
+    du command: Estimate file space usage.
+    a : Displays all files and folders.
+    sort command : Sort lines of text files.
+    -n : Compare according to string numerical value.
+    -r : Reverse the result of comparisons.
+    head : Output the first part of files.
+    -n : Print the first ‘n’ lines. (In our case, We displayed first 5 lines).
+
+
